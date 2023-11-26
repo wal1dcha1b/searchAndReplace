@@ -43,7 +43,6 @@ public class XMLFileProcessor implements FileProcessor {
           case CHARACTERS -> xmlStreamWriter.writeCharacters(xmlStreamReader.getText());
           case COMMENT -> xmlStreamWriter.writeComment(xmlStreamReader.getText());
           case END_DOCUMENT -> xmlStreamWriter.writeEndDocument();
-            // default -> xmlStreamWriter.writeCharacters(xmlStreamReader.getText());
         }
       }
     } catch (FileNotFoundException | XMLStreamException e) {
