@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configuration>
+    <properties>
+        <log level="trace">
+            <file name="trace-20180101.log"/>
+        </log>
+    </properties>
+</configuration>

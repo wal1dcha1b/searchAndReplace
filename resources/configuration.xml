@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configuration>
+    <properties>
+        <!-- Uncomment the following to enable the profiler -->
+        <!-- <profiler mode=”trace”/> -->
+        <log level="trace">
+            <file name="trace-20180101.log"/>
+        </log>
+        <comment>Level can be either "trace", "info" or "error".</comment>
+    </properties>
+</configuration>

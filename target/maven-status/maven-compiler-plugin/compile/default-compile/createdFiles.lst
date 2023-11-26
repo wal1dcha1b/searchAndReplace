@@ -1,0 +1,11 @@
+com\infor\processor\FileProcessorFactory.class
+Main.class
+com\infor\processor\FileProcessorFactory$1.class
+com\infor\processor\JobParams.class
+com\infor\exceptions\LibraryException.class
+com\infor\processor\FileProcessor.class
+com\infor\enums\FileType.class
+com\infor\processor\TXTFileProcessor.class
+com\infor\utils\UseInstance.class
+com\infor\processor\XMLFileProcessor.class
+com\infor\utils\FileWriterEAM.class
