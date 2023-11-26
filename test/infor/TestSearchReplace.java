@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.infor.exceptions.LibraryException;
 import com.infor.processor.*;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import org.junit.jupiter.api.Test;
@@ -89,7 +90,7 @@ public class TestSearchReplace {
 
     xmlProcessor.searchAndReplace(TRACE, ERROR);
 
-    var outputContent = Files.readString(Paths.get(outputFileName));
+    var outputContent = Files.readString(Paths.get(outputFileName), StandardCharsets.UTF_8);
     assertTrue(outputContent.contains(TRACE) && !outputContent.contains(ERROR));
   }
 
